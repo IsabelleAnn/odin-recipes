@@ -1,0 +1,39 @@
+body {
+    background-image: url("./images/blue-white-checkered.png");
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+h1 {
+    font-family: 'Comforter', cursive;
+    font-size: 150px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.recipe {
+    list-style: none;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.nav-link {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.recipe-icon {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: black solid 2px;
+}
+
+.recipe-img {
+    width: 600px;
+    height: 300px;
+    object-fit:cover;
+    margin: 0 auto;
+}
+
