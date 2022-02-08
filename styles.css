@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+
+}
 body {
     background-image: url("./images/blue-white-checkered.png");
     font-family: 'Saira Semi Condensed', sans-serif;
@@ -8,12 +13,24 @@ h1 {
     font-size: 150px;
     text-align: center;
     font-weight: normal;
+    margin: 0;
+    padding: 50px;
+}
+
+nav {
+    display: flex;
+}
+
+.recipe-list {
+    display: inline-flex;
+    padding: 0px;
+    margin-top: 20px;
+    gap: 30px;
 }
 
 .recipe {
-    list-style: none;
-    margin-bottom: 90px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav-link {
@@ -23,6 +40,11 @@ h1 {
     font-size: 20px;
     text-align: center;
 }
+
+.home {
+    padding: 40px;
+}
+
 .recipe-icon {
     width: 200px;
     height: 200px;
@@ -34,6 +56,15 @@ h1 {
     width: 600px;
     height: 300px;
     object-fit:cover;
-    margin: 0 auto;
+    margin: auto;
+    display: block;
+    margin-bottom: 25px;
 }
 
+.container {
+    padding: 25px;
+    width: 50%;
+    border: solid black 2px;
+    background-color: white;
+    margin: auto;
+}
