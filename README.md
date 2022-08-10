@@ -1,4 +1,17 @@
-# odin-recipes
-Odin Project: Recipes
-First project practicing HTML and CSS skills through The Odin Project.
-Created website with links to other pages displaying different recipes using correct headings and lists in HTML.
+# Simple Recipes Page
+
+Part of The Odin Project Curriculum
+
+:point_right:[Live Demo](https://isabelleann.github.io/odin-recipes/)
+
+## Built With:
+  * HTML
+
+  * CSS
+  
+## Tools:
+  * Visual Studio Code
+  
+  * Ubuntu Linux on VirtualBox
+  
+  * git + Github
